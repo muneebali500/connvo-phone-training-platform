@@ -2,6 +2,12 @@
 
 A responsive landing page built with Next.js, Tailwind CSS, and TypeScript.
 
+![Landing Page Preview](/public/screenshot.png)
+
+## Live Demo
+
+[View Live Demo](https://your-project-name.vercel.app)
+
 ## Prerequisites
 
 - Node.js (v18 or later)

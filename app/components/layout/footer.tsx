@@ -61,9 +61,8 @@ const Footer = () => {
             <h3 className="font-semibold mb-4 text-white">Product</h3>
             <ul className="space-y-2">
               {productLinks.map(({ href, text }) => (
-                <li>
+                <li key={href}>
                   <Link
-                    key={href}
                     href={href}
                     className="text-gray-300 hover:text-white transition-colors"
                   >
@@ -78,9 +77,8 @@ const Footer = () => {
             <h3 className="font-semibold mb-4 text-white">Support</h3>
             <ul className="space-y-2">
               {supportLinks.map(({ href, text }) => (
-                <li>
+                <li key={href}>
                   <Link
-                    key={href}
                     href={href}
                     className="text-gray-300 hover:text-white transition-colors"
                   >

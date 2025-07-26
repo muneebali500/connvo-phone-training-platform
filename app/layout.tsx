@@ -27,6 +27,9 @@ export const metadata: Metadata = {
     title: "Connvo - AI-Powered Phone Training Platform",
     description: "Master communication skills with AI-powered phone training.",
   },
+  icons: {
+    icon: { url: "/globe.svg", type: "image/svg+xml" },
+  },
 };
 
 export default function RootLayout({
