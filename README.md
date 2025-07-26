@@ -6,7 +6,7 @@ A responsive landing page built with Next.js, Tailwind CSS, and TypeScript.
 
 ## Live Demo
 
-[View Live Demo](https://your-project-name.vercel.app)
+[View Live Demo](https://connvo.vercel.app/)
 
 ## Prerequisites
 

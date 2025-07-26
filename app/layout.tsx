@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     description: "Master communication skills with AI-powered phone training.",
   },
   icons: {
-    icon: { url: "/globe.svg", type: "image/svg+xml" },
+    icon: { url: "/favicon.svg", type: "image/svg+xml" },
   },
 };
 

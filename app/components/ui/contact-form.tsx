@@ -69,7 +69,7 @@ export default function ContactModal({ isOpen, onClose }: ContactModalProps) {
               id="fullName"
               type="text"
               required
-              className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-primary"
+              className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-[var(--color-primary)]"
             />
           </div>
           <div>
@@ -83,7 +83,7 @@ export default function ContactModal({ isOpen, onClose }: ContactModalProps) {
               id="email"
               type="email"
               required
-              className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-primary"
+              className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-[var(--color-primary)]"
             />
           </div>
           <div>
@@ -97,7 +97,7 @@ export default function ContactModal({ isOpen, onClose }: ContactModalProps) {
               id="company"
               type="text"
               required
-              className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-primary"
+              className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-[var(--color-primary)]"
             />
           </div>
           <div>
@@ -109,7 +109,7 @@ export default function ContactModal({ isOpen, onClose }: ContactModalProps) {
             </label>
             <select
               id="teamSize"
-              className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-primary"
+              className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-[var(--color-primary)]"
               defaultValue="1-10"
               required
             >
@@ -130,13 +130,13 @@ export default function ContactModal({ isOpen, onClose }: ContactModalProps) {
               id="message"
               rows={4}
               required
-              className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-primary"
+              className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-[var(--color-primary)]"
               placeholder="Tell us about your training needs..."
             />
           </div>
           <button
             type="submit"
-            className="w-full bg-primary text-white py-3 rounded-lg hover:bg-secondary transition-colors font-semibold"
+            className="w-full bg-[var(--color-primary)] text-white py-3 rounded-lg hover:bg[var(--color-secondary)] transition-colors font-semibold"
           >
             Send Message
           </button>
