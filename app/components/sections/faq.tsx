@@ -27,7 +27,7 @@ const FAQSection = () => {
               className="bg-white rounded-lg shadow-md transition-all duration-300 hover:shadow-lg"
             >
               <button
-                className="w-full text-left p-6 font-semibold text-gray-900 hover:text-primary transition-colors flex justify-between items-center cursor-pointer"
+                className="w-full text-left p-6 font-semibold text-gray-900 hover:text-[var(--color-primary)] transition-colors flex justify-between items-center cursor-pointer"
                 onClick={() => toggleFAQ(index)}
               >
                 {faq.question}
